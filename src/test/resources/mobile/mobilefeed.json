@@ -1,10 +1,15 @@
 {
   "desiredCapabilities": [
     {
-      "app": "sample_app.apk",
-      "appWaitActivity": "com.swaglabsmobileapp.MainActivity",
+      "app": "app-debug.apk",
       "platformName": "android",
-      "automationName": "UiAutomator2"
+      "automationName": "Flutter",
+      "newCommandTimeout": 300,
+      "autoGrantPermissions": true,
+      "noReset": false,
+      "avdLaunchTimeout": 300,
+      "autoAcceptAlerts": true,
+      "useKeystore": false
     },
     {
       "app": "<app_name_with_extension>",
