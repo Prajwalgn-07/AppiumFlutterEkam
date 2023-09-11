@@ -5,17 +5,17 @@ plugins {
 
 group 'ekam.template'
 
-sourceCompatibility = 1.8
+sourceCompatibility = 11
 
 repositories {
-    mavenLocal()
+//    mavenLocal()
     mavenCentral()
     jcenter()
 }
 
 dependencies {
     // ekam
-    implementation('com.testvagrant.ekam:ekam:1.1.2')
+    implementation('com.testvagrant.ekam:ekam:1.2.1')
     implementation('com.testvagrant.ekam:ekam-atoms:1.0.3')
     implementation('com.testvagrant.ekam:ekam-api:1.0.0')
 

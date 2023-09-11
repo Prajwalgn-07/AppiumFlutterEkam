@@ -17,5 +17,4 @@ allure-results/
 logs/
 *.log
 *.DS_Store
-*.apk
 settings.gradle
